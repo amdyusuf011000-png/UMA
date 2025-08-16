@@ -1,4 +1,6 @@
 function showLove() {
-  const message = "Aku mencintaimu lebih dari kata-kata yang bisa kuungkap. ❤️";
-  document.getElementById("loveMessage").innerText = message;
+  const message = "Aku bersyukur setiap hari karena memilikimu. Teruslah jadi sinar dalam hidupku. ❤️";
+  const el = document.getElementById("loveMessage");
+  el.innerText = message;
+  el.style.opacity = 1;
 }

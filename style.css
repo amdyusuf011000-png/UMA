@@ -1,0 +1,40 @@
+body {
+  background-color: #ffe6f0;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 105, 180, 0.3);
+}
+
+h1 {
+  color: #ff3399;
+}
+
+button {
+  background-color: #ff66b2;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff3385;
+}
+
+#loveMessage {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #cc0066;
+  transition: all 0.5s ease;
+}

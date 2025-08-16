@@ -8,12 +8,23 @@
 </head>
 <body>
   <div class="container">
-    <h1>Hai Sayang 💌</h1>
-    <p>Kamu adalah alasan aku tersenyum setiap hari. Terima kasih sudah ada untukku.</p>
-    <button onclick="showLove()">Klik di sini 💝</button>
-    <div id="loveMessage"></div>
+    <h1 class="animated-text">Hai Cintaku 💌</h1>
+    <p class="fade-in">Kamu adalah lagu terindah dalam hidupku.</p>
+
+    <!-- Video/Lagu -->
+    <video id="loveVideo" controls>
+      <source src="assets/love-song.mp4" type="video/mp4" />
+      Browsermu tidak mendukung video.
+    </video>
+
+    <!-- Tombol Pesan -->
+    <button onclick="showLove()">Klik untuk pesan rahasia 💝</button>
+    <div id="loveMessage" class="fade-in"></div>
+
+    <!-- Animasi hati -->
+    <img src="assets/heart.gif" alt="Hati Berdetak" class="heart-animation" />
   </div>
 
-  <script src="main.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
